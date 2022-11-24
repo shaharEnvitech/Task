@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5131F74579CDA2302671F3B9 /* Pods_Envitech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6422C5D36367C6694CD9D1A8 /* Pods_Envitech.framework */; };
+		CB0030CF292F8AAF0097AE42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030CE292F8AAF0097AE42 /* AppDelegate.swift */; };
+		CB0030D1292F8AAF0097AE42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030D0292F8AAF0097AE42 /* SceneDelegate.swift */; };
+		CB0030D3292F8AAF0097AE42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030D2292F8AAF0097AE42 /* ViewController.swift */; };
+		CB0030D6292F8AAF0097AE42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0030D4292F8AAF0097AE42 /* Main.storyboard */; };
+		CB0030D8292F8AB00097AE42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0030D7292F8AB00097AE42 /* Assets.xcassets */; };
+		CB0030DB292F8AB00097AE42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0030D9292F8AB00097AE42 /* LaunchScreen.storyboard */; };
+		CB0030E6292F8ADF0097AE42 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030E3292F8ADF0097AE42 /* NetworkService.swift */; };
+		CB0030E7292F8ADF0097AE42 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030E4292F8ADF0097AE42 /* Reachability.swift */; };
+		CB0030E8292F8ADF0097AE42 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030E5292F8ADF0097AE42 /* CustomError.swift */; };
+		CB0030EC292F8E350097AE42 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030EB292F8E350097AE42 /* Response.swift */; };
+		CB0030F3292F8ECF0097AE42 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030F2292F8ECF0097AE42 /* ViewModel.swift */; };
+		CB0030F6292F8FFD0097AE42 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030F5292F8FFD0097AE42 /* ObservableObject.swift */; };
+		CB0030FD292F97650097AE42 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CB0030FC292F97650097AE42 /* Podfile */; };
+		CB003100292F9F110097AE42 /* LegendTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0030FF292F9F110097AE42 /* LegendTableCell.swift */; };
+		CB003102292F9F2A0097AE42 /* LegendTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB003101292F9F2A0097AE42 /* LegendTableCell.xib */; };
+		CB003104292FA01D0097AE42 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003103292FA01D0097AE42 /* Utils.swift */; };
+		CB003107292FA0BF0097AE42 /* LegendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003106292FA0BF0097AE42 /* LegendViewController.swift */; };
+		CB00310C292FA4440097AE42 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB00310B292FA4440097AE42 /* LaunchScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6422C5D36367C6694CD9D1A8 /* Pods_Envitech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Envitech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA56A26AC17E918C2082D99C /* Pods-Envitech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Envitech.debug.xcconfig"; path = "Target Support Files/Pods-Envitech/Pods-Envitech.debug.xcconfig"; sourceTree = "<group>"; };
+		CB0030CB292F8AAF0097AE42 /* Envitech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Envitech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0030CE292F8AAF0097AE42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB0030D0292F8AAF0097AE42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB0030D2292F8AAF0097AE42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB0030D5292F8AAF0097AE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB0030D7292F8AB00097AE42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB0030DA292F8AB00097AE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB0030DC292F8AB00097AE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0030E3292F8ADF0097AE42 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CB0030E4292F8ADF0097AE42 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		CB0030E5292F8ADF0097AE42 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		CB0030EB292F8E350097AE42 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CB0030F2292F8ECF0097AE42 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CB0030F5292F8FFD0097AE42 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		CB0030FC292F97650097AE42 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CB0030FF292F9F110097AE42 /* LegendTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendTableCell.swift; sourceTree = "<group>"; };
+		CB003101292F9F2A0097AE42 /* LegendTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LegendTableCell.xib; sourceTree = "<group>"; };
+		CB003103292FA01D0097AE42 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CB003106292FA0BF0097AE42 /* LegendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendViewController.swift; sourceTree = "<group>"; };
+		CB00310B292FA4440097AE42 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		EA6B7E6CB11925E36895772B /* Pods-Envitech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Envitech.release.xcconfig"; path = "Target Support Files/Pods-Envitech/Pods-Envitech.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0030C8292F8AAF0097AE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5131F74579CDA2302671F3B9 /* Pods_Envitech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567B74EF0ADAB521D11BC13F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6422C5D36367C6694CD9D1A8 /* Pods_Envitech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8177E6F8ED34E2FB5E28E6A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA56A26AC17E918C2082D99C /* Pods-Envitech.debug.xcconfig */,
+				EA6B7E6CB11925E36895772B /* Pods-Envitech.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB0030C2292F8AAF0097AE42 = {
+			isa = PBXGroup;
+			children = (
+				CB0030FC292F97650097AE42 /* Podfile */,
+				CB0030CD292F8AAF0097AE42 /* Envitech */,
+				CB0030CC292F8AAF0097AE42 /* Products */,
+				8177E6F8ED34E2FB5E28E6A3 /* Pods */,
+				567B74EF0ADAB521D11BC13F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0030CC292F8AAF0097AE42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0030CB292F8AAF0097AE42 /* Envitech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0030CD292F8AAF0097AE42 /* Envitech */ = {
+			isa = PBXGroup;
+			children = (
+				CB0030F4292F8FE70097AE42 /* Helper */,
+				CB0030E9292F8AEB0097AE42 /* View */,
+				CB0030CE292F8AAF0097AE42 /* AppDelegate.swift */,
+				CB0030D0292F8AAF0097AE42 /* SceneDelegate.swift */,
+				CB0030E2292F8ADF0097AE42 /* Network */,
+				CB0030EA292F8E280097AE42 /* Model */,
+				CB0030D7292F8AB00097AE42 /* Assets.xcassets */,
+				CB0030DC292F8AB00097AE42 /* Info.plist */,
+			);
+			path = Envitech;
+			sourceTree = "<group>";
+		};
+		CB0030E2292F8ADF0097AE42 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CB0030E3292F8ADF0097AE42 /* NetworkService.swift */,
+				CB0030E4292F8ADF0097AE42 /* Reachability.swift */,
+				CB0030E5292F8ADF0097AE42 /* CustomError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CB0030E9292F8AEB0097AE42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB0030F1292F8EBB0097AE42 /* LaunchViewController */,
+				CB0030F0292F8EAF0097AE42 /* MainViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB0030EA292F8E280097AE42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB0030EB292F8E350097AE42 /* Response.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB0030ED292F8E450097AE42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB003103292FA01D0097AE42 /* Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CB0030F0292F8EAF0097AE42 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB0030FE292F9EE50097AE42 /* Cells */,
+				CB0030D2292F8AAF0097AE42 /* ViewController.swift */,
+				CB0030F2292F8ECF0097AE42 /* ViewModel.swift */,
+				CB003106292FA0BF0097AE42 /* LegendViewController.swift */,
+				CB0030D4292F8AAF0097AE42 /* Main.storyboard */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		CB0030F1292F8EBB0097AE42 /* LaunchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB0030D9292F8AB00097AE42 /* LaunchScreen.storyboard */,
+				CB00310B292FA4440097AE42 /* LaunchScreenViewController.swift */,
+			);
+			path = LaunchViewController;
+			sourceTree = "<group>";
+		};
+		CB0030F4292F8FE70097AE42 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CB0030ED292F8E450097AE42 /* Extensions */,
+				CB0030F5292F8FFD0097AE42 /* ObservableObject.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CB0030FE292F9EE50097AE42 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CB0030FF292F9F110097AE42 /* LegendTableCell.swift */,
+				CB003101292F9F2A0097AE42 /* LegendTableCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB0030CA292F8AAF0097AE42 /* Envitech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0030DF292F8AB00097AE42 /* Build configuration list for PBXNativeTarget "Envitech" */;
+			buildPhases = (
+				E52C163BA8F00DD0D9802642 /* [CP] Check Pods Manifest.lock */,
+				CB0030C7292F8AAF0097AE42 /* Sources */,
+				CB0030C8292F8AAF0097AE42 /* Frameworks */,
+				CB0030C9292F8AAF0097AE42 /* Resources */,
+				C6A63D4BD9FFC4366AB46602 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Envitech;
+			productName = Envitech;
+			productReference = CB0030CB292F8AAF0097AE42 /* Envitech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0030C3292F8AAF0097AE42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CB0030CA292F8AAF0097AE42 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CB0030C6292F8AAF0097AE42 /* Build configuration list for PBXProject "Envitech" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB0030C2292F8AAF0097AE42;
+			packageReferences = (
+				CB0030F8292F93440097AE42 /* XCRemoteSwiftPackageReference "DropDown" */,
+			);
+			productRefGroup = CB0030CC292F8AAF0097AE42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0030CA292F8AAF0097AE42 /* Envitech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB0030C9292F8AAF0097AE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0030DB292F8AB00097AE42 /* LaunchScreen.storyboard in Resources */,
+				CB0030D8292F8AB00097AE42 /* Assets.xcassets in Resources */,
+				CB003102292F9F2A0097AE42 /* LegendTableCell.xib in Resources */,
+				CB0030FD292F97650097AE42 /* Podfile in Resources */,
+				CB0030D6292F8AAF0097AE42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6A63D4BD9FFC4366AB46602 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Envitech/Pods-Envitech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Envitech/Pods-Envitech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Envitech/Pods-Envitech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52C163BA8F00DD0D9802642 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Envitech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB0030C7292F8AAF0097AE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0030D3292F8AAF0097AE42 /* ViewController.swift in Sources */,
+				CB003100292F9F110097AE42 /* LegendTableCell.swift in Sources */,
+				CB0030CF292F8AAF0097AE42 /* AppDelegate.swift in Sources */,
+				CB0030E6292F8ADF0097AE42 /* NetworkService.swift in Sources */,
+				CB0030F3292F8ECF0097AE42 /* ViewModel.swift in Sources */,
+				CB00310C292FA4440097AE42 /* LaunchScreenViewController.swift in Sources */,
+				CB0030F6292F8FFD0097AE42 /* ObservableObject.swift in Sources */,
+				CB0030E7292F8ADF0097AE42 /* Reachability.swift in Sources */,
+				CB003107292FA0BF0097AE42 /* LegendViewController.swift in Sources */,
+				CB0030D1292F8AAF0097AE42 /* SceneDelegate.swift in Sources */,
+				CB0030E8292F8ADF0097AE42 /* CustomError.swift in Sources */,
+				CB0030EC292F8E350097AE42 /* Response.swift in Sources */,
+				CB003104292FA01D0097AE42 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB0030D4292F8AAF0097AE42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0030D5292F8AAF0097AE42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB0030D9292F8AB00097AE42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0030DA292F8AB00097AE42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB0030DD292F8AB00097AE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB0030DE292F8AB00097AE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0030E0292F8AB00097AE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA56A26AC17E918C2082D99C /* Pods-Envitech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84B552T4S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Envitech/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.Intellithings.Envitech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CB0030E1292F8AB00097AE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6B7E6CB11925E36895772B /* Pods-Envitech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84B552T4S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Envitech/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.Intellithings.Envitech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB0030C6292F8AAF0097AE42 /* Build configuration list for PBXProject "Envitech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0030DD292F8AB00097AE42 /* Debug */,
+				CB0030DE292F8AB00097AE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0030DF292F8AB00097AE42 /* Build configuration list for PBXNativeTarget "Envitech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0030E0292F8AB00097AE42 /* Debug */,
+				CB0030E1292F8AB00097AE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB0030F8292F93440097AE42 /* XCRemoteSwiftPackageReference "DropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AssistoLab/DropDown";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = CB0030C3292F8AAF0097AE42 /* Project object */;
+}

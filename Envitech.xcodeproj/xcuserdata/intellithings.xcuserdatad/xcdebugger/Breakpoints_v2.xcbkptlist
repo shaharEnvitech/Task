@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4D4FAB23-945A-4890-AD99-A0BD7F66DD5B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2D52DB2-64DE-45D7-A3FA-C48A7490F1BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Envitech/View/MainViewController/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setupBinders()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E2D52DB2-64DE-45D7-A3FA-C48A7490F1BB - 73c8ca501b25e12b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Envitech.Response&gt;) -&gt; () in Envitech.ViewController.setupBinders() -&gt; ()"
+                  moduleName = "Envitech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/intellithings/Projects/Envitech/Envitech/View/MainViewController/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "255">
+               </Location>
+               <Location
+                  uuid = "E2D52DB2-64DE-45D7-A3FA-C48A7490F1BB - 73c8ca501b25e12b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Envitech.Response&gt;) -&gt; () in Envitech.ViewController.setupBinders() -&gt; ()"
+                  moduleName = "Envitech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/intellithings/Projects/Envitech/Envitech/View/MainViewController/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "449">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A54BD76-6078-4175-9C5C-1295C105CAB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Envitech/View/MainViewController/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "setupBinders()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3A54BD76-6078-4175-9C5C-1295C105CAB7 - 73c8ca501b25e1ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Envitech.Response&gt;) -&gt; () in Envitech.ViewController.setupBinders() -&gt; ()"
+                  moduleName = "Envitech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/intellithings/Projects/Envitech/Envitech/View/MainViewController/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "3A54BD76-6078-4175-9C5C-1295C105CAB7 - 28e5066b4c201e90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Envitech.Response&gt;) -&gt; () in Envitech.ViewController.setupBinders() -&gt; ()"
+                  moduleName = "Envitech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/intellithings/Projects/Envitech/Envitech/View/MainViewController/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "73">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
